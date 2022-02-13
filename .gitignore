@@ -1,0 +1,30 @@
+# unity ignore dir
+/Library/*
+!/Library/com.unity.addressables/
+/Logs
+/Bin/
+/Temp/
+/obj/
+/ServerDataStg/
+/ServerDataBeta/
+/ServerData/
+/ServerDataFile/
+/Assets/ConsolePro
+/ProjectSettings/QualitySettings.asset
+# unity ignore file
+*.unityproj
+*.user
+*.userprefs
+*.meta
+*.tmp
+*.vs
+*.vscode
+*.sln
+*.csproj
+*.apk
+
+# need include the meta of file
+!*.*.meta
+/*.sln
+/.vs
+/.vsconfig
